@@ -34,22 +34,16 @@ git remote add origin git@github.com:Igor-17/2023-10-19_test-rep.git
 git remote -v
 git push -u origin main
 git push -u origin master
-git log 
-git status 
 git add ./test2.txt 
 git commit -m "3-й пробный коммит"
-git status 
 git push -u origin master
 git push
-git status 
 git add ./tasks.txt 
 git commit -m "4-й пробный коммит"
-git status 
 git push
 git add --all 
 git commit -m "5-й пробный коммит"
 git push
-git status 
 git add --all 
 git commit -m "6-й пробный коммит"
 git push
@@ -57,7 +51,6 @@ git status
 git push
 git commit -m "6-й пробный коммит. Test-1"
 git push
-git status 
 git add test.txt 
 git status 
 git commit -m "6-й пробный коммит. Test-1"
@@ -68,7 +61,6 @@ git commit -m "7-й пробный коммит. Test-1"
 git status 
 git push
 git init
-git status 
 git add --all 
 git status 
 git add ./README.md 
