@@ -1,91 +1,79 @@
- 1922  git init 
- 1923  git status 
- 1924  touch todo.txt
- 1925  touch readme.txt
- 1926  > test.txt
- 1927  git status 
- 1928  git add --all 
- 1929  git status 
- 1930  git add --all 
- 1931  git status 
- 1932  git commit -m "Мой первый коммит!"
- 1933  git status 
- 1934  git add --all 
- 1935  git status 
- 1936  git commit -m "второй пробный коммит"
- 1937  git status 
- 1938  git log 
- 1939  cd ~
- 1940  ll
- 1941  cd ./.ssh/
- 1942  ll
- 1943  cd -
- 1944  cd ~/.ssh/
- 1945  ll
- 1946  cat id_rsa.pub 
- 1947  ssh -T git@github.com
- 1948  cd -
- 1949  ll
- 1950  git remote add origin https://github.com/Igor-17/2023-10-19_test-rep
- 1951  git log 
- 1952  git status 
- 1953  git remote -v
- 1954  git log 
- 1955  $ git push -u origin main # Если команда приведёт к ошибке, попробуйте 
- 1956  $ git push -u origin main
- 1957  git push -u origin main
- 1958  git push -u origin master 
- 1959  git remote remove origin git@github.com:Igor-17/2023-10-19_test-rep.git
- 1960  git remote remove origin https://github.com/Igor-17/2023-10-19_test-rep
- 1961  git remote remove origin
- 1962  git remote add origin git@github.com:Igor-17/2023-10-19_test-rep.git
- 1963  git remote -v
- 1964  git push -u origin main
- 1965  git push -u origin master
- 1966  git log 
- 1967  git status 
- 1968  git add ./test2.txt 
- 1969  git commit -m "3-й пробный коммит"
- 1970  git status 
- 1971  git push -u origin master
- 1972  git push
- 1973  git status 
- 1974  git add ./tasks.txt 
- 1975  git commit -m "4-й пробный коммит"
- 1976  git status 
- 1977  git push
- 1978  git add --all 
- 1979  git commit -m "5-й пробный коммит"
- 1980  git push
- 1981  git status 
- 1982  git add --all 
- 1983  git commit -m "6-й пробный коммит"
- 1984  git push
- 1985  git status 
- 1986  git push
- 1987  git commit -m "6-й пробный коммит. Test-1"
- 1988  git push
- 1989  git status 
- 1990  git add test.txt 
- 1991  git status 
- 1992  git commit -m "6-й пробный коммит. Test-1"
- 1993  git push
- 1994  git status 
- 1995  git add --all 
- 1996  git commit -m "7-й пробный коммит. Test-1"
- 1997  git status 
- 1998  git push
- 1999  git init
- 2000  git status 
- 2001  git add --all 
- 2002  git status 
- 2003  git add ./README.md 
- 2004  git status 
- 2005  git commit -m "1-й коммит. Файл README.md"
- 2006  git status 
- 2007  git log 
- 2008  git remote add origin git@github.com:Igor-17/2023-09-20_Git_GitHub_Conspect.git
- 2009  tail -50 history >> git_hist.txt
- 2010  history| tail -50 > git_hist.txt
- 2011  history| tail -150 > git_hist.txt
- 2012  history| tail -95 > git_hist.txt
+git init 
+git status 
+touch todo.txt
+touch readme.txt
+> test.txt
+git status 
+git add --all 
+git status 
+git add --all 
+git status 
+git commit -m "Мой первый коммит!"
+git status 
+git add --all 
+git status 
+git commit -m "второй пробный коммит"
+git status 
+git log 
+cd ./.ssh/
+cd ~/.ssh/
+cat id_rsa.pub 
+ssh -T git@github.com
+git remote add origin https://github.com/Igor-17/2023-10-19_test-rep
+git log 
+git status 
+git remote -v
+git log 
+$ git push -u origin main # Если команда приведёт к ошибке, попробуйте master
+git push -u origin main
+git push -u origin master
+git remote remove origin git@github.com:Igor-17/2023-10-19_test-rep.git
+git remote remove origin https://github.com/Igor-17/2023-10-19_test-rep
+git remote remove origin
+git remote add origin git@github.com:Igor-17/2023-10-19_test-rep.git
+git remote -v
+git push -u origin main
+git push -u origin master
+git log 
+git status 
+git add ./test2.txt 
+git commit -m "3-й пробный коммит"
+git status 
+git push -u origin master
+git push
+git status 
+git add ./tasks.txt 
+git commit -m "4-й пробный коммит"
+git status 
+git push
+git add --all 
+git commit -m "5-й пробный коммит"
+git push
+git status 
+git add --all 
+git commit -m "6-й пробный коммит"
+git push
+git status 
+git push
+git commit -m "6-й пробный коммит. Test-1"
+git push
+git status 
+git add test.txt 
+git status 
+git commit -m "6-й пробный коммит. Test-1"
+git push
+git status 
+git add --all 
+git commit -m "7-й пробный коммит. Test-1"
+git status 
+git push
+git init
+git status 
+git add --all 
+git status 
+git add ./README.md 
+git status 
+git commit -m "1-й коммит. Файл README.md"
+git status 
+git log 
+git remote add origin git@github.com:Igor-17/2023-09-20_Git_GitHub_Conspect.git
